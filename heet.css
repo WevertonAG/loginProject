@@ -47,9 +47,11 @@ button{
     border:3px solid #adfa38;
     border-radius: 15px;
     transition: 500ms;
+    cursor:pointer;
 }
 button:focus{
     background:greenyellow;
     width: 180px;
+    cursor:pointer;
 
 }
