@@ -2,7 +2,7 @@ body{
     margin:0;
     padding:0;
     font-family: sans-serif;
-    background-color: #85929E;
+    background: #85929E;
 }
 .box h1{
     color: #fff;
@@ -15,7 +15,7 @@ body{
     top: 50%;
     left:50%;
     transform: translate(-50%,-50%);
-    background-color: #1B2631;
+    background:#1b2631;
     text-align: center;
 }
 .box input[type = "text"],.box input[type = "password"]{
@@ -36,7 +36,7 @@ body{
     width: 430px;
     border-color: #adfa38;
 }
-button{
+.box input[type = "button"]{
     border:0;
     background: none;
     color: #fff ;
@@ -49,7 +49,7 @@ button{
     transition: 500ms;
     cursor:pointer;
 }
-button:focus{
+.box input[type = "button"]:focus{
     background:greenyellow;
     width: 180px;
     cursor:pointer;
