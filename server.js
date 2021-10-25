@@ -1,5 +1,11 @@
-let botao = document.getElementById("cadastro")
+const login = {
+    nome:"",
+    senha: "",
+}
 function cadastrar (botao) {
-    
-    console.log("passou")
+    let name = document.getElementById("name")
+    let pass = document.getElementById("password")
+    login.nome = name.value
+    login.senha = pass.value
+    console.log(login)
 }

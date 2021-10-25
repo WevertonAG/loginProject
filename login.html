@@ -10,12 +10,15 @@
 <body>    
     <div class="box">
         <h1>Login</h1>
-        <form class= "" action="index.html" method="post">
-            <input type="text" id="name" placeholder="Username or Email"> 
-            <input type="password" id="password"placeholder="Password" >
-            <input id="cadastro" value = "Login" type="button" onclick="cadastrar()" ></input>
+        <form class= "form" action="index.html" method="post">
+            <input type="text" id="name" placeholder="Username or Email"></input>
+            <input type="password" id="password"placeholder="Password" ></input>
+            <input type="checkbox" id = "mantemConectado"></input><h5>Mantenha me conectado</h5> 
+            <input id="cadastro" type="button" onclick="cadastrar()" value="login" ></input>
         </form>
+        
     </div>
+    
     <script src="server.js"></script>
 </body>
 </html>
