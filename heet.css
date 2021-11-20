@@ -30,7 +30,7 @@ body{
     outline: none;
     color: #fff;
     border-radius: 15px;
-    transition: 500ms;
+    transition: 400ms;
 }
 .box input[type = "checkbox"]{
     border: 0;
