@@ -1,11 +1,16 @@
-const user = {
-    nome:"",
-    senha: "",
+const login = {
+    log:"",
+    password: "",
+}
+const user ={
+    name:"",
+    email:"",
+    pass:"",
 }
 function cadastrar (botao) {
     let name = document.getElementById("name")
     let pass = document.getElementById("password")
-    user.nome = name.value
-    user.senha = pass.value
-    console.log(user)
+    user.log = name.value
+    user.password = pass.value
+    console.log(login)
 }
