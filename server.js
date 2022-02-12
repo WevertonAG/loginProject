@@ -9,8 +9,10 @@ const user ={
 }
 function cadastrar (botao) {
     let name = document.getElementById("name")
-    let pass = document.getElementById("password")
-    user.log = name.value
+    let email = document.getElementById("email")
+    let pass = document.getElementById("pass")
+    user.name = name.value
+    user.email = email.value
     user.password = pass.value
     console.log(login)
 }
