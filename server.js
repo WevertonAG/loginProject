@@ -16,3 +16,6 @@ function cadastrar (botao) {
     user.password = pass.value
     console.log(login)
 }
+
+function logar(botao){
+}
